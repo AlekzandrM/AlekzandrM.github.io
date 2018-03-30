@@ -21,3 +21,14 @@ header.header{
 	text-align: center;
 	margin-top: 20px;
 }
+.menu li{
+	float: left;
+	width: 25%;
+	border-right: 1px solid #2C71B8;
+}
+.menu li:first-child{
+	border-left: 1px solid #2C71B8;
+}
+.menu li:hover a{
+	color: white;
+}

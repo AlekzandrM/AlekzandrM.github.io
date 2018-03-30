@@ -5,6 +5,10 @@ body{
 	background-image: url(patt.png);
 }
 header.header{
+	background: rgba(225,225,225,0.75);
+	padding: 20px;
+}
+.container{	
 	width: 1170px;
 	margin: 0 auto;
 }
@@ -12,4 +16,8 @@ header.header{
 	content: "";
 	display: block;
 	clear: both;
+}
+.col-md-3{
+	text-align: center;
+	margin-top: 20px;
 }
